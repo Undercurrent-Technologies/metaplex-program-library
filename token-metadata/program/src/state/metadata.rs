@@ -40,8 +40,8 @@ pub const MAX_METADATA_LEN: usize = 1 // key
 + 34             // collection
 + 18             // uses
 + 10             // collection details
-+ 33             // programmable config
-+ 75; // Padding
++ 35             // programmable config
++ 1; // Fee flag
 
 pub const MAX_DATA_SIZE: usize = 4
     + MAX_NAME_LENGTH
